@@ -1,0 +1,48 @@
+body {
+	background: #ECF0F1;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Navigation Bar Custom CSS */
+.navbar-wrap {
+	padding: 15px 0 15px 0;
+	background-color: #77B69C;
+}
+
+.nav {
+	padding-right: 15px;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #ECF0F1;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #171F26;
+	background-color: transparent;
+}
+
+/* Jumbotron Custom CSS */
+
+.jumbotron {
+	margin-top: 50px;
+}
+
+.splash-container {
+	vertical-align: middle;
+	position: relative;
+}
+
+.centered-div {
+	float: none;
+	margin: 0 auto 0 auto;
+}
+
+.splash-content {
+	margin: 0 auto 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+.splash-text {
+	text-align: right;
+}
