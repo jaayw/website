@@ -6,25 +6,29 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/customstyle.css">
-	
+
 </head>
 	<body>
 		<!--Navigation Bar-->
 		<nav class="navbar navbar-default navbar-fixed-top navbar-wrap">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<img src="img/logo.png" />
+			<div class="navbar-container">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a href="#splash">
+						<img src="img/logo.png" />
+						</a>
+					</div>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#about">Who Am I?</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
 				</div>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#about">Who Am I?</a></li>
-					<li><a href="#projects">Projects</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
 			</div>
 		</nav>
 
 		<!-- Jumbotron -->
-		<div class="jumbotron">
+		<div name="splash" class="jumbotron">
 			<div class="splash-container">
 				<div class="container">
 					<div class="col-lg-9 centered-div">
@@ -41,16 +45,40 @@
 		<!-- Who Am I? -->
 		<div name="about" class="info-me">
 			<div class="container">
-				<div class="col-lg-9 centered-div">
+				<div class="col-lg-12">
 					<div class="about-content">
-						<h2 class="section-header">Who Am I?</h2>
+
+						<div class="about-header">
+							<h2 class="section-header">Who Am I?</h2>
+						</div>
+						<div class="row centered-div">
+						<div class="about-container-wrap">
+							<div class="about-container">
+								<div class="col-md-4 centered-div about-pic-wrap">
+										<div class="about-pic">
+											<img src="http://placehold.it/250x250" />
+											<!-- Insert Picture of Me-->
+										</div>
+								</div>
+								<div class="col-md-5 centered-div about-content-wrap">
+									<div class="container-fluid">
+										<h3>Placeholder Header</h3>
+										<br>
+										<p class="about-content-p">
+											Some guy who thinks he knows what he's doing. Blah blah blah.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
+				</div>
 				</div>
 			</div>
 		</div>
-		
+
 		<!-- Projects -->
-		
+
 		<!-- Footer -->
 		<!-- Javascript -->
 		<script src="http://code.jquery.com/jquery-1.1.3.min.js"></script>

@@ -10,16 +10,25 @@ body {
 /* Navigation Bar Custom CSS */
 
 .navbar-wrap {
-	padding: 0;
 	background-color: #77B69C;
 }
 
 .nav {
+	padding:
 	padding-right: 15px;
 }
 
 .navbar-right {
 	margin-right: 0;
+}
+
+.navbar-container {
+	margin: 0px auto;
+}
+
+.navbar-header {
+	float: left;
+	padding: 5px 0px 5px 0px;
 }
 
 .container-fluid>ul {
@@ -63,4 +72,32 @@ body {
 
 .splash-text {
 	text-align: right;
+}
+
+/* About Section Custom CSS */
+
+.about-container-wrap {
+	padding: 15px 15px;
+	vertical-align: middle;
+	margin: inherit;
+}
+
+.about-container {
+	padding: 10px 0px;
+}
+
+.about-pic-wrap {
+	display: inline-block;
+	float: none;
+	box-sizing: border-box;
+}
+
+.about-pic {
+	margin-bottom: 20px;
+}
+
+.about-content-wrap {
+	display: inline-block;
+	float: none;
+	box-sizing: border-box;
 }
